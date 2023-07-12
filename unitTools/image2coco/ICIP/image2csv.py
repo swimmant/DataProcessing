@@ -12,7 +12,7 @@ val_ratio = 0.2
 random.seed(0)
 
 #find box in lable
-with open('./labels.json') as f:
+with open('labels.json') as f:
     lable_json = json.load(f)
     images_info = lable_json['images']
     annotation_info = lable_json['annotations']

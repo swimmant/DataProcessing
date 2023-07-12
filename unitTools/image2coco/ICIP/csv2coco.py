@@ -135,7 +135,7 @@ class Csv2CoCo:
 if __name__ == '__main__':
     csv_file = "/media/snnu/dataset/chenkequan/Chula-ParasiteEgg-11/test/test.csv"
     image_dir = "/media/snnu/dataset/chenkequan/Chula-ParasiteEgg-11/test/test/"
-    saved_coco_path = "./"
+    saved_coco_path = "/"
     # 整合csv格式标注文件
     total_csv_annotations = {}
     annotations = pd.read_csv(csv_file,header=None).values
